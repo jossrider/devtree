@@ -10,10 +10,8 @@ export default function ProfileView() {
   const data: User = queryClient.getQueryData(['user'])!
   const {
     register,
-    watch,
     handleSubmit,
     formState: { errors },
-    reset,
   } = useForm<ProfileForm>({ defaultValues: { handle: data.handle, description: data.description } })
 
   const updateProfileMutation = useMutation({

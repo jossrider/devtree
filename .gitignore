@@ -29,5 +29,3 @@ dist
 build
 .DS_Store
 .vscode/
-package.json
-package-lock.json
