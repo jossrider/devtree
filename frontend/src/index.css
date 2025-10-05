@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+@plugin "@tailwindcss/forms" {
+  strategy: 'base'; /* or "class" */
+}
+@theme {
+  --background-image-home: url('/bg.svg');
+}
